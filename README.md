@@ -68,7 +68,7 @@ NUXT_HOST=localhost
 
 NUXT_PORT=3000
 
-↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
 ---
 
 ### Running the Application
