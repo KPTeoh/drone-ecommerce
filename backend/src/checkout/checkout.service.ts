@@ -34,14 +34,6 @@ export class CheckoutService {
         // Clear the cart
         this.cartService.clearCart();
 
-        // In a real application, you would:
-        // 1. Process payment
-        // 2. Save order to database
-        // 3. Send confirmation email
-        // 4. Update inventory ✓ (implemented above)
-        // 5. Create shipping label
-        // etc.
-
         return order;
     }
 }
