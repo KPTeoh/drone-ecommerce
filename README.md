@@ -57,7 +57,7 @@ Create .env file on frontend directory to communicate with backend services
 Paste the code below:
 
 ---
-
+###########################
 # API Configuration
 
 NUXT_PUBLIC_API_BASE_URL=http://localhost:3001/api
