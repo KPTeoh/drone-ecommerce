@@ -3,7 +3,7 @@ import type { Cart, CartItem, Product, ShippingInfo, CartState } from '~/types';
 
 export const useCartStore = defineStore('cart', {
     state: (): CartState => {
-        // Try to load initial state from localStorage
+        // Load initial state from localStorage
         const savedState = useNuxtApp().isClient ? localStorage.getItem('cartState') : null;
         return savedState ? JSON.parse(savedState) : {
             items: [],

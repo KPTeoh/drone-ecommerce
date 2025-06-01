@@ -46,29 +46,6 @@ cd ../frontend
 npm install
 ```
 
-## 🔧 Configuration
-
-### Environment Variables
-
-**Frontend** (`frontend/.env`)
-
-Create .env file on frontend directory to communicate with backend services
-
-Paste the code below:
-
----
-
-# API Configuration
-
-NUXT_PUBLIC_API_BASE_URL=http://localhost:3001/api
-
-# Development Configuration
-
-NUXT_HOST=localhost
-NUXT_PORT=3000
-
----
-
 ### Running the Application
 
 1. **Start Backend Server** (Terminal 1)
