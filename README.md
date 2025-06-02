@@ -82,7 +82,6 @@ npm run dev
 - ❌ **Scalability**: Cannot handle multiple server instances
 - ❌ **Persistence**: No data survives between sessions
 
-**Production Alternative:**
 
 ### 2. **API Design Choices**
 
